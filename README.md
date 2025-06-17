@@ -1,4 +1,5 @@
 # StoryBotix
+## [This project is under development. Thankyou for visiting.]
 
 **StoryBotix** is an AI-powered content automation tool that transforms trending news articles into short, engaging videos with narrated scripts, visuals, and subtitles. It leverages the latest in language models, text-to-speech, and generative image technologies to create video summaries suitable for platforms like YouTube Shorts, Instagram Reels, and TikTok.
 
