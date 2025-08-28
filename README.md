@@ -31,6 +31,8 @@
 
 ## Project Structure
 
+```
+
 StoryBotix/
 ├── assets/                        # Static assets (e.g. audio templates, logos)
 ├── generated_scripts/            # Auto-saved scripts generated from news
@@ -45,6 +47,7 @@ StoryBotix/
 ├── requirements.txt              # Lists all Python dependencies
 └── README.md                     # Project documentation
 
+```
 
 ---
 
