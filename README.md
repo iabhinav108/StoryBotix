@@ -31,8 +31,6 @@
 
 ## Project Structure
 
-<details> <summary><strong>Click to view directory structure</strong></summary>
-
 StoryBotix/
 ├── assets/                        # Static assets (e.g. audio templates, logos)
 ├── generated_scripts/            # Auto-saved scripts generated from news
@@ -46,8 +44,6 @@ StoryBotix/
 ├── main.py                       # CLI entry point that runs the full pipeline
 ├── requirements.txt              # Lists all Python dependencies
 └── README.md                     # Project documentation
-
-</details>
 
 
 ---
