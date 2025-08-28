@@ -31,23 +31,23 @@
 
 ## Project Structure
 
-StoryBotix/
-│
-├── assets/
-│ ├── generated_scripts/ # Auto-saved scripts
-│ ├── generated_images/ # Auto-generated image folders (per script)
-│ └── generated_videos/ # Final generated videos
-│
-├── utils/
-│ └── image_generator.py # Handles image generation from script
-│
-├── news_scraper.py # Fetches trending news from NewsAPI
-├── script_generator.py # Generates readable script from news
-├── video_generator.py # Creates video with narration and subtitles
-├── main.py # Orchestrates the pipeline via CLI
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+<details> <summary><strong>Click to view directory structure</strong></summary>
 
+StoryBotix/
+├── assets/                        # Static assets (e.g. audio templates, logos)
+├── generated_scripts/            # Auto-saved scripts generated from news
+├── generated_images/             # Auto-generated image folders (grouped per script)
+├── generated_videos/             # Final rendered videos with narration and subtitles
+├── utils/                        # Utility modules and helper functions
+│   └── image_generator.py        # Generates images based on script content
+├── news_scraper.py               # Fetches trending news using NewsAPI
+├── script_generator.py           # Generates readable scripts from raw news
+├── video_generator.py            # Creates final video with narration, images, and subtitles
+├── main.py                       # CLI entry point that runs the full pipeline
+├── requirements.txt              # Lists all Python dependencies
+└── README.md                     # Project documentation
+
+</details>
 
 
 ---
